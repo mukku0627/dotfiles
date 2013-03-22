@@ -1,0 +1,14 @@
+# 初期確認画面の省略
+startup_message off
+
+# オートデタッチ有効
+autodetach on
+
+# スクロールバックお好みで設定
+defscrollback 10000
+
+# Ctrl+zでscreenコマンド
+escape ^z^z
+
+# 画面下にscreenステータスを表示
+hardstatus alwayslastline "%{= gk}[%m/%d %02c:%s] %{gW} %-w%{= wk}%n %t%{-}%+w %=%{gk}$USER@$HOSTNAME[$LANG] (%l) "
