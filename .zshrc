@@ -104,6 +104,7 @@ esac
 
 # set alias
 alias kame='cd /Users/mukku/work/projects/kame'
+alias rm='rm -i'
 
 # 3秒以上かかった処理は詳細表示
 REPORTTIME=3
