@@ -1,2 +1,6 @@
 # homeDir copy
 rsync -a --exclude .git dotfiles/.* ~
+
+or
+
+. ~/dotfiles/copy_dotfiles.sh

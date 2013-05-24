@@ -7,7 +7,7 @@ export KCODE=u           # KCODEにUTF-8を設定
 export AUTOFEATURE=true  # autotestでfeatureを動かす
 
 #bindkey -e               # キーバインドをemacsモードに設定
-#bindkey -v              # キーバインドをviモードに設定
+bindkey -v              # キーバインドをviモードに設定
 
 setopt no_beep           # ビープ音を鳴らさないようにする
 setopt auto_cd           # ディレクトリ名の入力のみで移動する 
@@ -105,6 +105,7 @@ esac
 # set alias
 alias kame='cd /Users/mukku/work/projects/kame'
 alias rm='rm -i'
+alias php='nocorrect php'
 
 # 3秒以上かかった処理は詳細表示
 REPORTTIME=3
