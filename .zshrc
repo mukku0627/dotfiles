@@ -105,7 +105,8 @@ esac
 # set alias
 alias kame='cd /Users/mukku/work/projects/kame'
 alias rm='rm -i'
-alias php='nocorrect php'
+alias php='nocorrect php' # zshの補完関連
+alias sudo='sudo '        # sudoでエイリアスを有効
 
 # 3秒以上かかった処理は詳細表示
 REPORTTIME=3
