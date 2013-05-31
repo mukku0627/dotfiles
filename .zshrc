@@ -12,7 +12,7 @@ bindkey -v              # キーバインドをviモードに設定
 setopt no_beep           # ビープ音を鳴らさないようにする
 setopt auto_cd           # ディレクトリ名の入力のみで移動する 
 setopt auto_pushd        # cd時にディレクトリスタックにpushdする
-setopt correct           # コマンドのスペルを訂正する
+#setopt correct           # コマンドのスペルを訂正する
 setopt magic_equal_subst # =以降も補完する(--prefix=/usrなど)
 setopt prompt_subst      # プロンプト定義内で変数置換やコマンド置換を扱う
 setopt notify            # バックグラウンドジョブの状態変化を即時報告する
@@ -105,7 +105,7 @@ esac
 # set alias
 alias kame='cd /Users/mukku/work/projects/kame'
 alias rm='rm -i'
-alias php='nocorrect php' # zshの補完関連
+#alias php='nocorrect php' # zshの補完関連
 alias sudo='sudo '        # sudoでエイリアスを有効
 
 # 3秒以上かかった処理は詳細表示
