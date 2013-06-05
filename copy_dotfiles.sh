@@ -1,8 +1,8 @@
-#!/bin/bash
+#!/bin/sh
 # .git以外のdotfileをホームにシンボリックリンクとして作成
 cd ~/
 DOTDIR='./dotfiles'
-DOTFILES=`find ./dotfiles/ -type d -name ".git" -prune -o -type f -name '.*' -print| sed 's/.*\///'`
+DOTFILES=(`find ./dotfiles/ -type d -name ".git" -prune -o -type f -name '.*' -print| sed 's/.*\///'`)
 
 for DOTFILE in ${DOTFILES[@]}
 do
