@@ -106,7 +106,18 @@ esac
 alias kame='cd /Users/mukku/work/projects/kame'
 alias rm='rm -i'
 #alias php='nocorrect php' # zshの補完関連
-alias sudo='sudo '        # sudoでエイリアスを有効
+alias sudo='sudo '         # sudoでエイリアスを有効
+# svn alias
+alias sst='svn status'
+alias sci='svn commit'
+alias sdi='svn diff'
+alias sin='svn info'
+# git alias
+alias gst='git status'
+alias gci='git commit'
+alias gco='git checkout'
+alias gdi='git diff'
+alias gbr='git branch'
 
 # 3秒以上かかった処理は詳細表示
 REPORTTIME=3
