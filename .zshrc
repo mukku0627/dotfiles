@@ -102,8 +102,15 @@ kterm*|xterm*|)
   ;;
 esac
 
-# set alias
-alias kame='cd /Users/mukku/work/projects/kame'
-
 # 3秒以上かかった処理は詳細表示
 REPORTTIME=3
+
+# set alias
+alias kame='cd /Users/mukku/work/projects/kame'
+alias kameameba='open smb://172.16.1.15'
+alias kameamebadev4='open smb://172.16.1.12'
+alias kamegree='open smb://172.16.1.57/mukku'
+alias kameamebadev2='open smb://172.16.1.21'
+alias svn='/usr/local/Cellar/subversion/1.7.9/bin/svn'
+alias rm='rm -i'
+
