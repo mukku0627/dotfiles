@@ -1,0 +1,11 @@
+[user]
+	name = mukku
+	email = mukku0627@gmail.com
+[alias]
+	co = checkout
+	st = status
+	ci = commit
+	di = diff
+	br = branch
+[core]
+	editor = vi -c \"set fenc=utf-8\"
