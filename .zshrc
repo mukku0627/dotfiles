@@ -107,14 +107,6 @@ REPORTTIME=3
 
 # set alias
 alias kame='cd /Users/mukku/work/projects/kame'
-<<<<<<< .merge_file_aVL95D
-alias kameameba='open smb://172.16.1.15'
-alias kameamebadev4='open smb://172.16.1.12'
-alias kamegree='open smb://172.16.1.57/mukku'
-alias kameamebadev2='open smb://172.16.1.21'
-alias svn='/usr/local/Cellar/subversion/1.7.9/bin/svn'
-alias rm='rm -i'
-=======
 alias rm='rm -i'
 #alias php='nocorrect php' # zshの補完関連
 alias sudo='sudo '         # sudoでエイリアスを有効
@@ -129,5 +121,4 @@ alias gci='git commit'
 alias gco='git checkout'
 alias gdi='git diff'
 alias gbr='git branch'
->>>>>>> .merge_file_ZeJycN
 
