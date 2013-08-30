@@ -28,3 +28,5 @@ match ZenSP /　/
 set statusline=[%L]\ %y%{'['.(&fenc!=''?&fenc:&enc).':'.&ff.']'}%r%m%=%c:%l/%L
 set laststatus=2
 
+" php color
+set syn=php
