@@ -110,6 +110,12 @@ alias kame='cd /Users/mukku/work/projects/kame'
 alias rm='rm -i'
 #alias php='nocorrect php' # zshの補完関連
 alias sudo='sudo '         # sudoでエイリアスを有効
+# dstat alias
+alias dstat-full='dstat -Tclmdrn'
+alias dstat-mem='dstat -Tclm'
+alias dstat-cpu='dstat -Tclr'
+alias dstat-net='dstat -Tclnd'
+alias dstat-disk='dstat -Tcldr'
 # svn alias
 alias sst='svn status'
 alias sci='svn commit'
