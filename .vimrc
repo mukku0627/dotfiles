@@ -30,3 +30,6 @@ set laststatus=2
 
 " php color
 set syn=php
+
+set textwidth=0
+set formatoptions=q
