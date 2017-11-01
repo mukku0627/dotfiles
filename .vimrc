@@ -33,3 +33,6 @@ set syn=php
 
 set textwidth=0
 set formatoptions=q
+
+" 自動インデントしない
+set noautoindent
